@@ -1,0 +1,69 @@
+.control-bg {
+    background: linear-gradient(180deg, #FFFFFF 0%, #E2F1FF 100%);
+    width: 100%;
+    transform: skewY(-5deg);
+}
+
+.control-nav {
+    margin: 0 auto;
+    transform: skewY(5deg);
+}
+
+.control-content-text .MuiButtonBase-root {
+    width: 258px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #722ED1;
+    padding: 8px 16px;
+    border-radius: 20px !important;
+    background: #F7F1FF;
+}
+
+.control-content-text .line-bottom {
+    padding-left: 4px;
+    padding-bottom: 4px;
+}
+
+.control-content-text .line-bottom::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    display: block;
+    background-color: #722ED1;
+    margin-top: -5px;
+    opacity: 0.4;
+}
+
+.btn-content {
+    display: flex;
+    padding-top: 24px;
+}
+
+.btn-content .MuiButtonBase-root:nth-child(1) {
+    background: #722ED1;
+    width: 142px;
+    height: 38px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.btn-content .MuiButtonBase-root:nth-child(2) {
+    background: #FFFFFF;
+    border-radius: 23px;
+    width: 126px;
+    height: 38px;
+    margin-left: 16px;
+    color: #722ED1;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.control-content-text {
+    max-width: 50em;
+    margin: 0 auto;
+}

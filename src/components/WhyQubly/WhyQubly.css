@@ -1,0 +1,65 @@
+.control-whyQubly {
+    text-align: center;
+    margin-top: 150px
+}
+
+.control-whyQubly .MuiButtonBase-root {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: none;
+    color: #722ED1;
+    padding: 8px 16px;
+    border-radius: 20px !important;
+    background: #F7F1FF;
+    width: 157.78px;
+
+}
+
+.control-text-qubly h3 {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #160637;
+    margin-top: 24px;
+}
+
+.control-text-qubly h4 {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #8989A2;
+}
+.item-text{
+    width: 294px;
+    margin: 0 auto;
+}
+.item-text h4 {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #160637;
+    padding-top: 16px;
+}
+
+.item-text h5 {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #8989A2;
+    padding-top: 16px;
+}

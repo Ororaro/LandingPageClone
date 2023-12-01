@@ -1,0 +1,150 @@
+.control-text-signform {
+    width: 400px;
+    height: 120px;
+}
+
+.control-text-signform h2 {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #160637;
+    letter-spacing: 1px;
+}
+
+.control-trust-by {
+    margin-top: 35px;
+}
+
+.control-trust-by h5 {
+    text-align: center;
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #8989A2;
+    position: relative;
+    margin: 0 5px !important;
+}
+
+.control-trust-by h5::before {
+    content: "";
+    width: 144px;
+    height: 0px;
+    left: 0;
+    top: 50%;
+    position: absolute;
+    border: 1px solid #D6D6D6;
+
+}
+
+.control-trust-by h5::after {
+    content: "";
+    width: 144px;
+    height: 0px;
+    right: 0;
+    top: 50%;
+    position: absolute;
+    border: 1px solid #D6D6D6;
+
+}
+
+.card-bg {
+
+    height: 480px;
+    background: #F9F0FF;
+    position: relative;
+    display: block;
+}
+
+.card-form {
+    position: absolute;
+    display: block;
+    height: 494px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 12px rgba(137, 137, 162, 0.122);
+    border-radius: 8px;
+    bottom: 28px;
+    text-align: center;
+}
+
+.card-form h2 {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #160637;
+    padding-top: 32px;
+
+}
+
+.card-form .MuiButtonBase-root {
+    background: #722ED1;
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: none;
+    margin: 0px auto;
+    margin-top: 16px;
+    display: block;
+    width: 348px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.card-form .MuiButtonBase-root:hover {
+    background: #722ED1;
+}
+
+.card-form .MuiInputBase-root {
+    width: 348px;
+    height: 48px;
+}
+
+.control-text-or h4 {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+    color: #000000;
+
+}
+
+.btn-google {
+    position: relative;
+    padding: 16px;
+}
+
+.btn-google::before {
+    content: '';
+    opacity: 0.48;
+    position: absolute;
+    inset: 0;
+    border-bottom: 1px solid #8989A2;
+    width: 336px;
+    margin: 0 auto;
+}
+
+.btn-google img {
+    isolation: isolate;
+    cursor: pointer;
+}
+
+.control-check-account h5 {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #8989A2;
+    padding-top: 16px;
+}

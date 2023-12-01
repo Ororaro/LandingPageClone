@@ -1,0 +1,96 @@
+.bg-footer {
+    margin-top: 120px;
+    background: #FBFCFF;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.control-text-col-1 h4 {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #160637;
+    margin-top: 14px;
+}
+
+.control-text-col-1 .control-social {
+    padding-top: 24px;
+}
+
+.control-text-col-1 .control-social img {
+    padding-right: 14.9px;
+    cursor: pointer;
+}
+
+.control-sub-col2 {
+    margin-top: 10px;
+}
+
+.control-header-footer {
+    margin-top: 58px;
+    margin-left: 40px;
+}
+
+.control-header-footer h1 {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #160637;
+}
+
+.control-sub-col2 h5 {
+    padding-top: 16px;
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    color: #160637;
+}
+
+.control-header-footer .newsletter {
+    margin-top: 20px;
+}
+
+.newsletter {
+    position: relative;
+    width: 180px;
+}
+
+.newsletter .MuiInputBase-root {
+    background-color: #ffff;
+    filter: drop-shadow(0px 5px 9px rgba(0, 0, 0, 0.051));
+    height: 40px;
+}
+
+.newsletter img {
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.footer-text-final {
+    margin-top: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-text-final h2 {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #160637;
+}
+
+.footer-text-final img {
+    padding-left: 8px;
+}

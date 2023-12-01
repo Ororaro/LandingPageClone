@@ -1,0 +1,34 @@
+.control-product-teams .MuiButtonBase-root {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: none;
+    color: #722ED1;
+    padding: 8px 16px;
+    border-radius: 20px !important;
+    background: #F7F1FF;
+    width: 258px;
+    height: 40px;
+}
+
+.teams-text h3 {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #160637;
+    padding-top: 24px;
+}
+
+.teams-text h4 {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8989A2;
+    padding-top: 24px;
+}

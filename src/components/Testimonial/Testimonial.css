@@ -1,0 +1,56 @@
+.testimonial-bg {
+    width: 100%;
+    height: 600.5px;
+    position: relative;
+
+}
+
+.testimonial-bg::before {
+    content: '';
+    background: linear-gradient(175.54deg, #F9F0FF 25.81%, #E2F1FF 96.38%);
+    background-size: cover;
+    transform: skewY(-5deg);
+    position: absolute;
+    inset: 0;
+    opacity: 0.47;
+}
+
+.control-testimonial-text {
+    margin: 0 auto;
+    height: 64px;
+    padding-top: 100px;
+
+}
+
+.control-testimonial-text h1 {
+    position: relative;
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #160637;
+}
+
+.control-img img {
+    position: relative;
+}
+
+.text-profile {
+    width: 143px;
+    height: 48px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 32px;
+}
+
+.text-profile h5 {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+
+}
